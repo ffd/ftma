@@ -1,6 +1,65 @@
 # ftma
 A new multiplayer game, based in medieval times. The library is written in Python using mainly our own libs and sockets.
 
+# Installation and Setup
+
+
+### Ubuntu/Debian
+
+In terminal, download the repo and enter that directory: 
+
+``` bash
+git clone https://github.com/ffd/ftma-game.git
+cd ftma-game
+```
+
+Then, install the needed dependencies from the apt repos: 
+
+```sudo apt-get install python-virtualenv python3```
+
+Next, create a python virtual environment, activate it, and install the needed python dependencies:
+
+```bash
+virtaulenv -p python3 .venv
+source .venv/bin/activate
+pip3 install pygame 
+```
+
+Then start the game:
+
+``` bash
+python3 main.py
+```
+
+### Mac OS (Untested)
+
+First install the needed dependencies: 
+
+``` bash
+brew install python3 git
+pip install virtualenv
+```
+
+Then, download the repo and enter that directory: 
+
+``` bash
+git clone https://github.com/ffd/ftma-game.git
+cd ftma-game
+```
+
+Next, create a python virtual environment, activate it, and install the needed python dependencies:
+
+```bash
+virtaulenv -p python3 .venv
+source .venv/bin/activate
+pip3 install pygame 
+```
+
+Then start the game:
+
+``` bash
+python3 main.py
+```
 
 # Styleguide:
 1. Default data type will be dicts
